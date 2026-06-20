@@ -516,7 +516,7 @@
 
       <div class="callout">
         <div class="callout-title">&#x1F4C8; Recognising a Hypo</div>
-        Watch for a reading <strong>below 4.0</strong> on the app or <a href="#watch" style="color:var(--blue);font-weight:600;">watch</a>, or trend arrows pointing sharply downward. <strong>Double down arrows (&#x21CA;) mean she is dropping fast</strong> — act before she reaches 4.0, don&apos;t wait for the number to get there.
+        Watch for a reading <strong>below 4.0</strong> on the app or <a href="#watch" style="color:var(--blue);font-weight:600;">watch</a>, or trend arrows pointing sharply downward. <strong>Double down arrows (&#x21CA;) mean she is dropping fast</strong> — if her reading is already close to 4.0, act before she gets there. If her reading is high (e.g. 11.0), double down arrows are normal and do not need action.
       </div>
 
       <h3 style="font-size:0.85rem;font-weight:700;text-transform:uppercase;letter-spacing:0.04em;margin:1.25rem 0 0.75rem;">Treatment Steps</h3>
@@ -573,7 +573,7 @@
 
       </svg>
 
-      <p style="font-size:0.82rem;color:#c0392b;font-weight:600;margin:0.25rem 0 1rem;">&#x26A0; Double down arrows (&#x21CA;) on the app or watch mean she is dropping fast — act before she reaches 4.0, don&#x2019;t wait for the number to get there.</p>
+      <p style="font-size:0.82rem;color:#c0392b;font-weight:600;margin:0.25rem 0 1rem;">&#x26A0; Double down arrows (&#x21CA;) mean she is dropping fast. Only act if she is already close to 4.0 — e.g. arrows at 4.8 need attention, but arrows at 11.0 do not.</p>
 
       <div class="callout">
         <div class="callout-title">&#x1F4A1; What to expect after treatment</div>
@@ -627,8 +627,55 @@
       <p style="font-size:0.875rem;margin-bottom:1rem;">When Skyla eats, you <strong>must enter the carb amount into the Android APS Calculator</strong>. The app cannot make insulin without it.</p>
       <div class="info-box blue" style="margin:0.75rem 0 1rem;">
         <p><strong>&#x1F4CB; Reading a nutritional label</strong></p>
-        <p>For prepackaged foods, check the nutrition label on the back of the packet. Look for <strong>&ldquo;Carbohydrates&rdquo;</strong> (not &ldquo;of which sugars&rdquo;) and use the total figure. If the label gives carbs per 100g, weigh the portion Skyla is eating and calculate accordingly &mdash; e.g. 40g of a food with 50g carbs per 100g = <strong>20g carbs</strong>.</p>
-      </div>
+        <p>For prepackaged foods, check the nutrition label on the back of the packet. Look for <strong>&ldquo;Carbohydrates&rdquo;</strong> (not &ldquo;of which sugars&rdquo;) and use the total figure. If the label gives carbs per 100g, weigh the portion Skyla is eating and calculate accordingly.</p>
+      <div id="fl" style="margin:0.75rem 0 0.25rem;display:flex;justify-content:center;">
+        <style>
+          #fl .fl-panel { width:100%;max-width:420px;background:#fff;padding:14px 16px 12px;box-shadow:0 1px 4px rgba(0,0,0,0.15);box-sizing:border-box; }
+          #fl .fl-panel h2 { font-size:20px;font-weight:800;margin:0 0 4px;color:#111; }
+          #fl .fl-rule { border-top:3px solid #111;margin-bottom:2px; }
+          #fl table { width:100%;border-collapse:collapse;font-size:11.5px;color:#111; }
+          #fl thead th { text-align:left;font-weight:bold;padding:5px 3px 5px 0;border-bottom:2px solid #111;vertical-align:bottom;line-height:1.2; }
+          #fl thead th.fl-num { text-align:right;padding-right:0; }
+          #fl tbody td { padding:4px 3px 4px 0;border-bottom:1px solid #ccc;vertical-align:top; }
+          #fl tbody td.fl-num { text-align:right;padding-right:0; }
+          #fl tbody tr.fl-sub td:first-child { padding-left:14px;color:#333; }
+          #fl tr.fl-carbs td { background:#fff3b0;font-weight:bold;border-top:2px solid #d4a017;border-bottom:2px solid #d4a017; }
+          #fl tr.fl-carbs td:first-child { box-shadow:inset 3px 0 0 #d4a017; }
+          #fl .fl-footer { margin-top:8px;font-size:11.5px;color:#111; }
+          #fl .fl-footnote { margin-top:3px;font-size:10px;color:#444;line-height:1.4; }
+          #fl .fl-caption { max-width:420px;margin-top:10px;font-size:11px;color:#666;line-height:1.5; }
+        </style>
+        <div style="display:flex;flex-direction:column;align-items:center;width:100%;">
+          <div class="fl-panel">
+            <h2>Nutrition</h2>
+            <div class="fl-rule"></div>
+            <table>
+              <thead>
+                <tr>
+                  <th>Typical values</th>
+                  <th class="fl-num">100g<br>contains</th>
+                  <th class="fl-num">Each serving<br>(35g) contains</th>
+                  <th class="fl-num">%&nbsp;RI*</th>
+                  <th class="fl-num">RI* for an<br>average adult</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr><td>Energy</td><td class="fl-num" style="line-height:1.35">650kJ<br>155kcal</td><td class="fl-num" style="line-height:1.35">228kJ<br>54kcal</td><td class="fl-num"></td><td class="fl-num" style="line-height:1.35">8400kJ<br>2000kcal</td></tr>
+                <tr><td>Fat</td><td class="fl-num">5.1g</td><td class="fl-num">1.8g</td><td class="fl-num">3%</td><td class="fl-num">70g</td></tr>
+                <tr class="fl-sub"><td>of which saturates</td><td class="fl-num">1.8g</td><td class="fl-num">0.6g</td><td class="fl-num">3%</td><td class="fl-num">20g</td></tr>
+                <tr class="fl-carbs"><td>Carbohydrate</td><td class="fl-num">22.4g</td><td class="fl-num">7.8g</td><td class="fl-num"></td><td class="fl-num"></td></tr>
+                <tr class="fl-sub"><td>of which sugars</td><td class="fl-num">6.0g</td><td class="fl-num">2.1g</td><td class="fl-num">2%</td><td class="fl-num">90g</td></tr>
+                <tr><td>Fibre</td><td class="fl-num">2.3g</td><td class="fl-num">0.8g</td><td class="fl-num"></td><td class="fl-num"></td></tr>
+                <tr><td>Protein</td><td class="fl-num">4.2g</td><td class="fl-num">1.5g</td><td class="fl-num"></td><td class="fl-num"></td></tr>
+                <tr><td>Salt</td><td class="fl-num">0.45g</td><td class="fl-num">0.16g</td><td class="fl-num">3%</td><td class="fl-num">6g</td></tr>
+              </tbody>
+            </table>
+            <div class="fl-footer">This pack contains 8 servings</div>
+            <div class="fl-footnote">*Reference intake of an average adult (8400kJ / 2000kcal)</div>
+          </div>
+          <p class="fl-caption">Use the top-level <strong>Carbohydrate</strong> row (highlighted) &mdash; not &ldquo;of which sugars&rdquo;. Here: 22.4g per 100g, so a 35g serving = <strong>7.8g carbs</strong>.</p>
+        </div>
+      </div>      </div>
       <p style="font-size:0.875rem;margin-bottom:1rem;">The system needs to be told about <strong>all carbohydrates</strong> &mdash; not just sugar. Bread, pasta, rice, fruit, and potatoes all raise blood glucose just as much as sweets or cake, so all of it needs to be counted and entered.</p>
 
       <h3 style="font-size:0.85rem;font-weight:700;text-transform:uppercase;letter-spacing:0.04em;margin:0 0 0.75rem;">Lunch Boxes</h3>
