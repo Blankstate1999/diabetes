@@ -381,6 +381,7 @@
     .info-box { break-inside: avoid; page-break-inside: avoid; }
     img { break-inside: avoid; page-break-inside: avoid; max-width: 100%; }
     .section-header { break-after: avoid; page-break-after: avoid; }
+    .t1d-boxes { grid-template-columns: repeat(3, 1fr) !important; }
   }
 </style>
 </head>
@@ -418,7 +419,7 @@
 
       <p>Type 1 diabetes is a <strong>lifelong autoimmune condition</strong> &mdash; it has nothing to do with diet, lifestyle, or anything Skyla has done. Her immune system mistakenly attacked and destroyed the cells in her pancreas that produce insulin. Without those cells, her body cannot make insulin at all, and it never will.</p>
 
-      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1rem;margin:1.2rem 0;">
+      <div class="t1d-boxes" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1rem;margin:1.2rem 0;">
 
         <div class="info-box blue">
           <p style="font-size:1.5rem;margin:0 0 0.4rem;">&#x1F6F9;</p>
