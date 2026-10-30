@@ -373,6 +373,15 @@
     nav.toc { padding: 0.9rem 1rem; }
     .page-header { padding: 1.5rem 1rem 1.25rem; }
   }
+  @media print {
+    .section { break-inside: avoid; page-break-inside: avoid; }
+    .step-card { break-inside: avoid; page-break-inside: avoid; }
+    .steps-grid { break-inside: avoid; page-break-inside: avoid; }
+    .callout { break-inside: avoid; page-break-inside: avoid; }
+    .info-box { break-inside: avoid; page-break-inside: avoid; }
+    img { break-inside: avoid; page-break-inside: avoid; max-width: 100%; }
+    .section-header { break-after: avoid; page-break-after: avoid; }
+  }
 </style>
 </head>
 <body>
